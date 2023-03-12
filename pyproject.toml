@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-homework-27"
+version = "0.1.0"
+description = ""
+authors = ["namazovanton <namazovanton@gmail.com>"]
+readme = "README.md"
+packages = [{include = "django_homework_27"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
